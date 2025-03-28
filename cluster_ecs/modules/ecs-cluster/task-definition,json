@@ -1,0 +1,8 @@
+[{
+  "name": "${var.service_name}",
+  "image": "${image}",
+  "portMappings": [{
+    "containerPort": ${port},
+    "hostPort": ${port}
+  }]
+}]
